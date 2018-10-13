@@ -1,0 +1,95 @@
+Week Four Challenge - Students and Courses
+
+It will allow a user to:
+1. Create a list of students
+2. Create a list of teachers
+3. Create a list of Courses
+
+Each student and teacher should have:
+1. A first name
+2. A last name
+3. An e-mail address
+4. An ID number
+
+Each course should have:
+1. An ID number
+2. A name
+
+The application should allow a user to:
+1. Add as many teachers, students, or courses to the application as the user would like.
+2. Provide options for listing students, courses, or teachers.
+
+
+Done already?
+The students and teachers must extend a Person class if they do not already, so that the methods for getting and setting names, email addresses and id numbers are only typed out once.
+
+You should be able to assign courses to students and teachers.
+When the students and teachers are listed, they should be listed as follows:
+
+Students:
+ID Number:124356
+First Name:First Name
+Last Name:Last Name
+Email Name:email@email.com
+Takes: Mathematics 101, Biology
+
+ID Number:1243566
+First Name:First
+Last Name:Last
+Email Name:email1@email.com
+Takes: Mathematics 101
+
+ID Number:1243568
+First Name:First Names
+Last Name:Last Names
+Email Name:emails@email.com
+Takes: Biology
+
+Teachers:
+ID Number:11111
+First Name:Teacher
+Last Name:One
+Email Name:email1@email.com
+Teaches: Mathematics 101
+
+ID Number:22222
+First Name:Teacher
+Last Name:Two
+Email Name:email2@email.com
+Teaches: Mathematics 101, Biology
+
+ID Number:33333
+First Name:Teacher
+Last Name:Three
+Email Name:email3@email.com
+Teaches: Biology
+
+Add a listing for courses that allows you to see who takes and teaches each course.
+
+It should show the following output:
+
+ID Number: 1023
+
+Name: Mathematics 101
+
+Taught by: Teacher One, Teacher Two
+
+Taken by:
+
+First Name Last Name
+
+First Last
+
+
+
+ID Number:1024
+
+Name: Biology
+
+Taught By: Teacher Two, Teacher Three
+
+Taken by:
+
+First Name Last Name
+
+First Names Last Names

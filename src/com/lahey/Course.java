@@ -1,35 +1,69 @@
 package com.lahey;
+/**
+ * @author jack lahey
+ */
 
 public class Course {
 
+    //static variables
     private static int iNextCourseNumber = 3001;
 
+    //class variables
     private int IDnumber = 0;
     private String courseName = "";
 
-    //*************************************************************************
-    //* default constructor sets user id
-    //*************************************************************************
-    public Course (){
+
+    /**
+     * default constructor sets userid
+     *
+     * @return void
+     */
+    public Course() {
 
         IDnumber = iNextCourseNumber++;
     }
 
-    public Course(String course){
+
+    /**
+     * Overloaded constructor takes string courseName
+     *
+     * @param course name of ccourse to be constructed
+     * @return void
+     */
+    public Course(String course) {
 
         IDnumber = iNextCourseNumber++;
         this.courseName = course;
     }
 
+
+    /**
+     * Gets course ID number
+     *
+     * @return ID number
+     */
     public int getIDnumber() {
         return this.IDnumber;
     }
 
-    public void setCourseName(String course){
+
+    /**
+     * set Course Name
+     *
+     * @param course
+     */
+    public void setCourseName(String course) {
 
         this.courseName = course;
     }
-    public String getCourseName(){
+
+
+    /**
+     * get course name
+     *
+     * @return
+     */
+    public String getCourseName() {
 
         return this.courseName;
     }
